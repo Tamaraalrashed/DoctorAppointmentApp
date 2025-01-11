@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentApp", "DoctorAppointmentApp.csproj", "{B30389F4-63EA-4F1F-B831-8A68CB174986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentApp.Tests", "..\DoctorAppointmentApp.Tests\DoctorAppointmentApp.Tests.csproj", "{9064B743-00D6-455F-91B3-C3A5CA0596DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "..\Shared\Shared.csproj", "{D2F21EC7-7A27-4055-AE6A-998AB5C09955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5BC41E24-E8BB-4EFA-81C5-5C6A3E1DDEFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{8B29D58F-31C6-47D2-A10D-57285913C9DB}"
+	ProjectSection(SolutionItems) = preProject
+		App_Data\Appointment.cs = App_Data\Appointment.cs
+		App_Data\Doctor.cs = App_Data\Doctor.cs
+		App_Data\Patient.cs = App_Data\Patient.cs
+		App_Data\Slot.cs = App_Data\Slot.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{B3029061-9DB5-4AF1-83A5-5E8C1FB81FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B30389F4-63EA-4F1F-B831-8A68CB174986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30389F4-63EA-4F1F-B831-8A68CB174986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30389F4-63EA-4F1F-B831-8A68CB174986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30389F4-63EA-4F1F-B831-8A68CB174986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9064B743-00D6-455F-91B3-C3A5CA0596DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9064B743-00D6-455F-91B3-C3A5CA0596DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9064B743-00D6-455F-91B3-C3A5CA0596DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9064B743-00D6-455F-91B3-C3A5CA0596DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2F21EC7-7A27-4055-AE6A-998AB5C09955} = {5BC41E24-E8BB-4EFA-81C5-5C6A3E1DDEFA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {793C04E8-1FC1-4466-A045-A605262498D3}
+	EndGlobalSection
+EndGlobal
