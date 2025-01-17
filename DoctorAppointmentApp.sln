@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentApp", "DoctorAppointmentApp.csproj", "{B30389F4-63EA-4F1F-B831-8A68CB174986}"
 EndProject
@@ -12,14 +12,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5BC41E24-E8BB-4EFA-81C5-5C6A3E1DDEFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{8B29D58F-31C6-47D2-A10D-57285913C9DB}"
-	ProjectSection(SolutionItems) = preProject
-		App_Data\Appointment.cs = App_Data\Appointment.cs
-		App_Data\Doctor.cs = App_Data\Doctor.cs
-		App_Data\Patient.cs = App_Data\Patient.cs
-		App_Data\Slot.cs = App_Data\Slot.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{B3029061-9DB5-4AF1-83A5-5E8C1FB81FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{0A243365-8DA8-4E3D-9F79-1BFBA61E913D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SeedData", "SeedData", "{5D24D1BF-A2AB-41AD-A5D8-2482A8DFF27F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeederData", "..\ClassLibrary1\SeederData.csproj", "{684C1041-2599-4FAB-90FB-A47C27121328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "..\Repositories\Repositories.csproj", "{1D629E92-D7CA-4DC1-AF72-4C0B2934A35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,12 +41,27 @@ Global
 		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2F21EC7-7A27-4055-AE6A-998AB5C09955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A243365-8DA8-4E3D-9F79-1BFBA61E913D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A243365-8DA8-4E3D-9F79-1BFBA61E913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A243365-8DA8-4E3D-9F79-1BFBA61E913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A243365-8DA8-4E3D-9F79-1BFBA61E913D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684C1041-2599-4FAB-90FB-A47C27121328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684C1041-2599-4FAB-90FB-A47C27121328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684C1041-2599-4FAB-90FB-A47C27121328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684C1041-2599-4FAB-90FB-A47C27121328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D629E92-D7CA-4DC1-AF72-4C0B2934A35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D629E92-D7CA-4DC1-AF72-4C0B2934A35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D629E92-D7CA-4DC1-AF72-4C0B2934A35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D629E92-D7CA-4DC1-AF72-4C0B2934A35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D2F21EC7-7A27-4055-AE6A-998AB5C09955} = {5BC41E24-E8BB-4EFA-81C5-5C6A3E1DDEFA}
+		{0A243365-8DA8-4E3D-9F79-1BFBA61E913D} = {8B29D58F-31C6-47D2-A10D-57285913C9DB}
+		{684C1041-2599-4FAB-90FB-A47C27121328} = {5D24D1BF-A2AB-41AD-A5D8-2482A8DFF27F}
+		{1D629E92-D7CA-4DC1-AF72-4C0B2934A35F} = {B3029061-9DB5-4AF1-83A5-5E8C1FB81FC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {793C04E8-1FC1-4466-A045-A605262498D3}
