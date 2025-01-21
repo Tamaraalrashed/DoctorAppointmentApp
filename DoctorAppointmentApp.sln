@@ -33,6 +33,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentModule", "..\App
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Test", "05_Test", "{9D799EC8-E20D-4E24-A1F9-EA73AB9107DB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_DoctorAppointmentManagementModule", "09_DoctorAppointmentManagementModule", "{01C1F0FD-9CA9-4864-BE20-87995A9BFFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement", "..\DoctorAppointmentManagement\DoctorAppointmentManagement.csproj", "{3746461E-C8A5-4A35-B8E0-DAA9F3DD28DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_AppointmentConfirmationModule", "08_AppointmentConfirmationModule", "{F7639765-9816-4696-8E8F-508743E1954F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentConfirmationModule", "..\AppointmentConfirmationModule\AppointmentConfirmationModule.csproj", "{9E706385-F4E7-45A0-8DE1-B6BCE0C2634C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +79,14 @@ Global
 		{5C651AC8-DB6E-4118-B1F3-C14F0E8153DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C651AC8-DB6E-4118-B1F3-C14F0E8153DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C651AC8-DB6E-4118-B1F3-C14F0E8153DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3746461E-C8A5-4A35-B8E0-DAA9F3DD28DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3746461E-C8A5-4A35-B8E0-DAA9F3DD28DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3746461E-C8A5-4A35-B8E0-DAA9F3DD28DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3746461E-C8A5-4A35-B8E0-DAA9F3DD28DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E706385-F4E7-45A0-8DE1-B6BCE0C2634C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E706385-F4E7-45A0-8DE1-B6BCE0C2634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E706385-F4E7-45A0-8DE1-B6BCE0C2634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E706385-F4E7-45A0-8DE1-B6BCE0C2634C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +99,8 @@ Global
 		{9590FB4E-7260-4745-8294-04523F0937CC} = {B14D6F1C-EB8C-4611-94F9-6CEF79137F7E}
 		{026B5728-77D0-4779-B942-0F227A84045E} = {68F1215A-12CA-4DC7-A088-3576EFB18838}
 		{5C651AC8-DB6E-4118-B1F3-C14F0E8153DA} = {CE8CF18D-056D-4FAB-BB0B-D566A45B30CD}
+		{3746461E-C8A5-4A35-B8E0-DAA9F3DD28DF} = {01C1F0FD-9CA9-4864-BE20-87995A9BFFF1}
+		{9E706385-F4E7-45A0-8DE1-B6BCE0C2634C} = {F7639765-9816-4696-8E8F-508743E1954F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {793C04E8-1FC1-4466-A045-A605262498D3}
